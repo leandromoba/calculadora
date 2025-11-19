@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(97, 97, 97, 0.329);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    background-color: rgb(63, 63, 63);
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 5px rgb(141, 91, 91);
+}
+
+header{
+
+}
+.centro{
+    text-align: center;
+    color: bisque;
+}
+.saida{
+   background-color: rgba(42, 41, 41, 0.595); 
+   height: 100px;
+   width: 400px;
+   margin: 15px auto;
+   border-radius: 15px;
+   border: 5px solid black;
+   overflow-x:auto;
+   overflow-y:hidden;
+   padding-bottom: 20px;
+}
+
+.saida h1{
+    color: rgb(213, 18, 18);
+    padding-top: 60px;
+    padding-left: 20px;
+  
+}
+
+
+
+section{
+display: flex;
+}
+.numero{
+    width: 60%;
+    height: auto;
+    margin-left: 5px;
+}
+.caracter{
+    width: 40%;
+}
+.separa{
+    display: flex;
+}
+nav{
+    background-color: rgba(255, 228, 196, 0.507);
+    padding: 30px;
+    margin: 5px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.btn{
+    background-color: rgba(255, 228, 196, 0.507);
+    padding: 30px;
+    margin: 5px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+nav:hover{
+    background-color: bisque;
+    color: white;
+    font-size: 35px;
+}
